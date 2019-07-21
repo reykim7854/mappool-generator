@@ -126,7 +126,7 @@ input[type="button"]:focus {
   background: no-repeat center center;
   background-size: cover;
   margin: 10px;
-  font-size: 13pt;
+  font-size: 11pt;
   color: white;
   border-radius: 100px;
 }
