@@ -42,6 +42,11 @@ h2:first-child {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.mapContent.banned .mapMetadata,
+.mapContent.banned .modImgContainer {
+  opacity: 0.3;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -117,11 +122,11 @@ input[type="button"]:focus {
 
 .mapContainer {
   width: 550px;
-  height: 90px;
+  height: 80px;
   background: no-repeat center center;
   background-size: cover;
   margin: 10px;
-  font-size: 11pt;
+  font-size: 13pt;
   color: white;
   border-radius: 100px;
 }
@@ -160,11 +165,11 @@ input[type="button"]:focus {
 }
 
 .modImgWrapper {
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 .banMap {
-  min-width: 60px;
+  min-width: 62px;
   height: auto;
   cursor: pointer;
 }
