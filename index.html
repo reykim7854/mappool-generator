@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mappool Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="poolFormContainer" class="itemContainer">
+      <div class="itemWrapper">
+        <h2>NoMod Pool</h2>
+        <input
+          type="number"
+          id="NoMod"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>Hidden Pool</h2>
+        <input
+          type="number"
+          id="Hidden"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>HardRock Pool</h2>
+        <input
+          type="number"
+          id="HardRock"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>DoubleTime Pool</h2>
+        <input
+          type="number"
+          id="DoubleTime"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>FreeMod Pool</h2>
+        <input
+          type="number"
+          id="FreeMod"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>TieBreaker Pool</h2>
+        <input
+          type="number"
+          class="poolInput"
+          id="TieBreaker"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper hide">
+        <input type="number" class="poolInput" id="API" value="1" hidden />
+      </div>
+    </section>
+    <section id="mapFormContainer" class="itemContainer hide"></section>
+    <footer>
+      <div class="itemWrapper">
+        <input type="button" id="previous" value="Previous" class="hide" />
+        <input type="button" id="submit" onclick="submitPool()" value="Next" />
+      </div>
+      <span>My Twitter:</span>
+      <a href="https://twitter.com/M_RayhanH" target="_blank"
+        >Muhammad Rayhan Hakim</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
