@@ -2,6 +2,8 @@
 
 A Mappool Generator for osu tournament livestreams
 
+forum post: https://osu.ppy.sh/community/forums/topics/937671
+
 ## How to use
 
 1. Go to the [mappool-generator](https://mrayhanhakim.github.io/mappool-generator) page to start using.
@@ -15,7 +17,7 @@ A Mappool Generator for osu tournament livestreams
 5. You can save the result to your local device by right clicking the page and click save as (Google Chrome) or save page as (Mozilla Firefox), and save it in a folder. **(Recommended)**
 6. To use the result, click on the blank left side of the map for banned map, the right side with the mod icon for selected map, and the middle area to unselect.
 
-If there's something wrong with the program, post the issue in this repository and feel free to leave any suggestion!
+If there's something wrong with the program, post the issue in this repository and feel free to leave any suggestion in the forum post!
 
 ---
 
