@@ -1,0 +1,37 @@
+/* Global */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo+2&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+h2:first-child {
+  margin-top: 15px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+footer span {
+  margin: 0 10px;
+}
+/*-------------------------------*/
