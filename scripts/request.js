@@ -50,7 +50,8 @@ function requestData(mapId, divId, api, mod, order) {
         modImgWrapper.classList.add("modImgWrapper");
         modImg.setAttribute("src", `src/${mod}.png`);
         blankDiv.classList.add("banMap");
-        blankDiv.setAttribute("onclick", "banMap(this.parentNode)");
+        blankDiv.addEventListener("click", e => banMap(e));
+        blankDiv.addEventListener("contextmenu", e => banMap(e));
       });
       mapDifficulty.appendChild(difficulty);
       mapCreator.appendChild(creator);

@@ -13,9 +13,10 @@ function selectMap(event) {
   )
 }
 
-function banMap(ban) {
-  selectMap(ban);
-  ban.classList.add("banned");
+function banMap(event) {
+  selectMap(event);
+  const banned = event.target.closest(".mapContent");
+  banned.classList.add("banned");
 }
 
 function unselectMap(unselect) {
