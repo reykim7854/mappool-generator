@@ -1,10 +1,16 @@
 /* Result Page Functions */
-function selectMap(select) {
+function selectMap(event) {
+  event.preventDefault();
+  const select = event.target.closest(".mapContent");
   unselectMap(select);
-  select.teamColorIdx = select.teamColorIdx || 0;
+
+  const teamSelected = event.button === 0 // Left Click applies Blue, Right click applies Red
+    ? 1
+    : 0
+  
   select.parentNode.classList.add(
-    `${teamColor[select.teamColorIdx++ % teamColor.length]}`
-  );
+    `${teamColor[teamSelected]}`
+  )
 }
 
 function banMap(ban) {

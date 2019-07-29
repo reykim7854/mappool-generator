@@ -45,7 +45,8 @@ function requestData(mapId, divId, api, mod, order) {
         mapMetadata.classList.add("mapMetadata");
         mapMetadata.setAttribute("onclick", "unselectMap(this.parentNode)");
         modImgContainer.classList.add("modImgContainer", "selectMap");
-        modImgContainer.setAttribute("onclick", "selectMap(this.parentNode)");
+        modImgContainer.addEventListener("click", e => selectMap(e));
+        modImgContainer.addEventListener("contextmenu", e => selectMap(e));
         modImgWrapper.classList.add("modImgWrapper");
         modImg.setAttribute("src", `src/${mod}.png`);
         blankDiv.classList.add("banMap");
