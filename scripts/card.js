@@ -4,13 +4,11 @@ function selectMap(event) {
   const select = event.target.closest(".mapContent");
   unselectMap(select);
 
-  const teamSelected = event.button === 0 // Left Click applies Blue, Right click applies Red
-    ? 1
-    : 0
+  const teamSelected = event.button === 0 ? 1 : 0;
   
   select.parentNode.classList.add(
     `${teamColor[teamSelected]}`
-  )
+  );
 }
 
 function banMap(event) {
