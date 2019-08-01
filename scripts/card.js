@@ -1,15 +1,20 @@
 /* Result Page Functions */
-function selectMap(select) {
+function selectMap(event) {
+  event.preventDefault();
+  const select = event.target.closest(".mapContent");
   unselectMap(select);
-  select.teamColorIdx = select.teamColorIdx || 0;
+
+  const teamSelected = event.button === 0 ? 1 : 0;
+  
   select.parentNode.classList.add(
-    `${teamColor[select.teamColorIdx++ % teamColor.length]}`
+    `${teamColor[teamSelected]}`
   );
 }
 
-function banMap(ban) {
-  selectMap(ban);
-  ban.classList.add("banned");
+function banMap(event) {
+  selectMap(event);
+  const banned = event.target.closest(".mapContent");
+  banned.classList.add("banned");
 }
 
 function unselectMap(unselect) {
