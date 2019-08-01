@@ -23,7 +23,7 @@
    <p align="center">
       <img src="https://i.imgur.com/ao9w1Mz.png" title="Chrome Context Menu">
    </P>
-6. To use the result, click on the blank left side of the map for banned map, the right side with the mod icon for selected map, and the middle area to unselect.  
+6. To use the result, left click on the blank left side of the map for banned map of blue team and right click for red team, left click the right side with the mod icon for selected map of blue team and right click for red team, and left click the middle area to unselect.  
    <p align="center">
       <img src="https://i.imgur.com/nbNkkCS.gif" title="How to Use the Result" />
    </p>
