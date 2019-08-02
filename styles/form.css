@@ -47,6 +47,7 @@ input[type="button"]:focus {
   justify-content: center;
   text-align: center;
   font-family: "Raleway", sans-serif;
+  background-color: white;
 }
 
 .itemWrapper {
