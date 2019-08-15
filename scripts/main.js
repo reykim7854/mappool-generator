@@ -1,5 +1,14 @@
 /* Global */
-let teamColor = ["redBorder", "blueBorder"];
+const teamColor = ["redBorder", "blueBorder"];
+
+/* Puush Image ID */
+const NoModMap = "E5t6i";
+const HardRockMap = "E5t5X";
+const HiddenMap = "E5t65";
+const DoubleTimeMap = "E5t0o";
+const FreeModMap = "E5t5G";
+const TieBreakerMap = "E5t6t";
+/* ---------------------- */
 
 function isInputEmpty(input) {
   // Checks wether the input is empty or not

@@ -48,7 +48,24 @@ function requestData(mapId, divId, api, mod, order) {
         modImgContainer.addEventListener("click", e => selectMap(e));
         modImgContainer.addEventListener("contextmenu", e => selectMap(e));
         modImgWrapper.classList.add("modImgWrapper");
-        modImg.setAttribute("src", `src/${mod}.png`);
+        modImg.setAttribute(
+          "src",
+          `https://puu.sh/${
+            mod === "NoModMap"
+              ? NoModMap
+              : mod === "HardRockMap"
+              ? HardRockMap
+              : mod === "HiddenMap"
+              ? HiddenMap
+              : mod === "DoubleTimeMap"
+              ? DoubleTimeMap
+              : mod === "FreeModMap"
+              ? FreeModMap
+              : mod === "TieBreakerMap"
+              ? TieBreakerMap
+              : ""
+          }.png`
+        );
         blankDiv.classList.add("banMap");
         blankDiv.addEventListener("click", e => banMap(e));
         blankDiv.addEventListener("contextmenu", e => banMap(e));
