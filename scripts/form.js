@@ -38,7 +38,7 @@ function generateMapForm(id, number) {
       const anchor = document.createElement("a");
       inputText = document.createElement("input");
       inputText.setAttribute("type", "text");
-      anchor.setAttribute("href", "https://old.ppy.sh/p/api");
+      anchor.setAttribute("href", "https://osu.ppy.sh/p/api");
       anchor.setAttribute("target", "_blank");
       anchor.innerHTML = id + " Key";
       header.appendChild(anchor);
