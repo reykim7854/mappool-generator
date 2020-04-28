@@ -1,13 +1,13 @@
 /* Global */
 const teamColor = ["redBorder", "blueBorder"];
 
-/* Puush Image ID */
-const NoModMap = "E5t6i";
-const HardRockMap = "E5t5X";
-const HiddenMap = "E5t65";
-const DoubleTimeMap = "E5t0o";
-const FreeModMap = "E5t5G";
-const TieBreakerMap = "E5t6t";
+/* imgur Image ID */
+const NoModMap = "2YrYs5A";
+const HardRockMap = "HZT3fjO";
+const HiddenMap = "TzTI6Pb";
+const DoubleTimeMap = "QSsOfjr";
+const FreeModMap = "fbIu0rj";
+const TieBreakerMap = "y4K5wlJ";
 /* ---------------------- */
 
 function isInputEmpty(input) {

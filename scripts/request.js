@@ -50,7 +50,7 @@ function requestData(mapId, divId, api, mod, order) {
         modImgWrapper.classList.add("modImgWrapper");
         modImg.setAttribute(
           "src",
-          `https://puu.sh/${
+          `https://i.imgur.com/${
             mod === "NoModMap"
               ? NoModMap
               : mod === "HardRockMap"
